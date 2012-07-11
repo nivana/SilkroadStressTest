@@ -80,7 +80,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="shared\blowfish.cpp" />
+    <ClCompile Include="shared\silkroad_security.cpp" />
+    <ClCompile Include="shared\stream_utility.cpp" />
     <ClCompile Include="SilkroadStressTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shared\blowfish.h" />
+    <ClInclude Include="shared\silkroad_security.h" />
+    <ClInclude Include="shared\stream_utility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

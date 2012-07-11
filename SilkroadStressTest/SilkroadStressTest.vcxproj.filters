@@ -2,5 +2,30 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="SilkroadStressTest.cpp" />
+    <ClCompile Include="shared\blowfish.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\silkroad_security.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\stream_utility.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shared">
+      <UniqueIdentifier>{f362144f-5732-43d5-b0d8-261a6b0a8c50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shared\blowfish.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\silkroad_security.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\stream_utility.h">
+      <Filter>shared</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
