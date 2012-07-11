@@ -1,0 +1,7 @@
+Silkroad Stress Tester
+This software is to be used to stress test a proxy or Silkroad server. I am not responsible
+for any damage that may occur while using it.
+
+Requirements:
+Visual Studio 2010/gcc
+Boost
